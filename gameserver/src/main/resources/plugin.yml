@@ -1,0 +1,12 @@
+name: ShardBackend
+version: '${version}'
+main: de.outdev.gameserver.ShardBackend
+api-version: '1.21.4'
+authors: [ OutDev ]
+description: ShardLink Backend Plugin
+load: STARTUP
+depend: [CommandAPI]
+libraries:
+  - de.exlll:configlib-yaml:${configlibVersion}
+  - de.exlll:configlib-paper:${configlibVersion}
+
